@@ -1,3 +1,11 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
 .modal-container {
   margin: 0;
   padding: 0;
@@ -71,7 +79,7 @@
   flex-wrap: wrap;
   background-color: red;
   flex-direction: row;
-  width: 10.7em;
+  width: 13em;
   border-radius: 5px;
   box-shadow: rgba(116, 122, 116, 0.4901960784) 3px 3px 10px;
   padding: 0.5em;
@@ -115,12 +123,12 @@
 }
 .modal-container .tries {
   text-align: center;
-  margin: 1em 0;
+  margin: 1em auto;
   background-color: rgba(255, 255, 0, 0.3294117647);
   padding: 0.5em 0.3em;
   border-radius: 5px;
   transition: 0.3s ease;
-  max-width: 10.7em;
+  max-width: 13em;
 }
 .modal-container .win {
   background-color: rgba(0, 255, 255, 0.6901960784);

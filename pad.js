@@ -44,7 +44,8 @@ function start()
 document.querySelector(".modal-container").classList.remove("none");
 document.getElementById((4).toString()).classList.add('invisible');
 // z-index de la galerie à 0 pour eliminer bugs on hover
-document.getElementById("galerie").style.zIndex = 0;
+// sur mon portfolio
+// document.getElementById("galerie").style.zIndex = 0;
 invisible = 4;
 tableScore.textContent =  `${iScore} pts`;
 
@@ -195,7 +196,10 @@ elt.classList.add(addClass);
 // ******* CODE ********
 // *********************
 
-playPad.addEventListener("click",start);
+// Ce bouton va commencer le jeu si on est sur une page normale
+// playPad.addEventListener("click",start); 
+// sinon le jeu commence directement :
+start();
 
 mainUl.addEventListener("click", function(e){ 
 
