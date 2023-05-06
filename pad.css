@@ -157,4 +157,10 @@ body{
   border-radius: 50%;
   font-size: 0.9em;
   font-weight: 800;
-}/*# sourceMappingURL=pad.css.map */
+}
+.modal-container #divBonus.none {
+ display: none;
+}
+
+
+/*# sourceMappingURL=pad.css.map */

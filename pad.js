@@ -196,7 +196,7 @@ elt.classList.add(addClass);
 // ******* CODE ********
 // *********************
 
-// Ce bouton va commencer le jeu si on est sur une page normale
+// Ce bouton va commencer le jeu sur la page de mon portfolio
 // playPad.addEventListener("click",start); 
 // sinon le jeu commence directement :
 start();
@@ -208,7 +208,7 @@ if(winBool == false){
     //nombre de coups
     iTry ++;
     iScore --;
-    if(iTry > 119){
+    if(iTry > 119 || iScore < 1){
         divInfo.textContent =  `Vous avez perdu en ${iTry} coups !`;
         divInfo.classList.add("lost");
         divInfo.classList.add("big-div");
